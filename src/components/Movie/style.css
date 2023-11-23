@@ -1,0 +1,65 @@
+.movieCard{
+    width: 50%;
+    background-color: #ffc99ea2;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieImg{
+    width: 50%;
+}
+
+
+.movieTitle{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.movieDate{
+    font-size: 20px;
+    color: grey;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.movieGroup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.movieDescription{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.movieDirector{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+
+.movieTime{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.movieScore{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}

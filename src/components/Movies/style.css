@@ -1,0 +1,69 @@
+/* 
+    Couleur de fond : Beige - #F9E2CF
+    Couleur beige Foncé : #ffc99ea2
+    Couleur de texte : Bleu - #B6DEE7
+    Divers : Rose - #FCD9DD
+*/
+
+.search{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 500px;
+}
+
+.searchText{
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.submit{
+    width: 250px;
+    position: relative;
+    margin: auto;
+}
+
+
+.moviesList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.movies{
+    width: 400px;
+    background-color: #ffc99ea2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    padding: 10px;
+}
+
+.moviesImg{
+    width: 250px;
+}
+
+
+.moviesTitle{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.moviesDate{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+}
+.more{
+    float: right;
+}

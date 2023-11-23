@@ -1,0 +1,14 @@
+/* 
+    Couleur de fond : Beige - #F9E2CF
+    Couleur de texte : Bleu - #B6DEE7
+    Divers : Rose - #FCD9DD
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    background-color: #F9E2CF;
+}
+

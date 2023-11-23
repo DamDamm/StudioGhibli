@@ -1,0 +1,21 @@
+.home{
+    width: 100%;
+}
+
+
+.homeElement{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.homePara{
+    padding: 100px;
+    font-size: 25px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.homeImg{
+    width: 600px;
+}

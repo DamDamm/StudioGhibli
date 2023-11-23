@@ -1,0 +1,52 @@
+/* 
+    Couleur de fond : Beige - #F9E2CF
+    Couleur beige Foncé : #ffc99ea2
+    Couleur de texte : Bleu - #B6DEE7
+    Divers : Rose - #FCD9DD
+*/
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffc99ea2;
+    margin: 50px;
+    position: sticky;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 50px;
+}
+
+.headerLogo{
+    width: 250px;
+    margin: 0 30px 30px 30px;
+}
+
+.link{
+    font-size: 20px;
+}
+
+.accueil{
+    text-decoration: none;
+    margin: 25px;
+    padding: 15px;  
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.films{
+    text-decoration: none;
+    margin: 25px;
+    padding: 15px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.accueil:hover{
+ font-size: 23px;
+}
+
+.films:hover{
+    font-size: 23px;
+}
